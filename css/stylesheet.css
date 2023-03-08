@@ -1,1 +1,25 @@
 /* font-family: 'Roboto', sans-serif; */
+body {
+    color: #fff;
+    background-color: #000;
+    margin: 0px;
+}
+
+header {
+    color: #000;
+    background-color: #E5E5E5;
+    padding-left: 30px;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+ul {
+    height: 100%;
+}
