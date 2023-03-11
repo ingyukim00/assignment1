@@ -1,5 +1,5 @@
 body {
-    background-color: #606c38;
+    background-color: #283618;
     margin: 0px;
     font-family: 'Golos Text', sans-serif;
     display: grid;
@@ -15,7 +15,7 @@ a:link {
 }
 
 a:visited {
-    color: red;
+    color: #ffb703;
     text-decoration: none;
 }
 
@@ -27,7 +27,17 @@ button {
     border: none;
     border-radius: 10%;
     padding: 0.5rem;
+    background-color: #fefae0;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+#cancel_button:hover {
+    background-color: red;
+}
+
 
 .take_note_section {
     grid-row-start: 3;
@@ -60,7 +70,7 @@ header {
     width: 20%;
     height: 100%;
     padding-top: 2%;
-    background-color: #E9EDC9;
+    background-color: #fefae0;
 }
 
 h1 {
@@ -100,3 +110,4 @@ main textarea {
     font-size: 1.5rem;
 
 }
+
