@@ -11,10 +11,16 @@ body {
 
 a:link {
     color: #fefae0;
+    text-decoration: none;
 }
 
 a:visited {
     color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 button {
